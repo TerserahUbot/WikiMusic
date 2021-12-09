@@ -12,11 +12,10 @@ __MODULE__ = "Lyrics"
 __HELP__ = """
 
 /Lyrics [Music Name]
-- Searches Lyrics for the particular Music on web.
+- Mencari Lirik untuk Musik tertentu di web.
 
 **Note**:
-Inline button of Lyrics has some bugs. Searches only 50% results. You can use command instead if you want lyrics for any playing music.
-
+Tombol sebaris Lirik memiliki beberapa bug. Pencarian hanya 50% hasil. Anda dapat menggunakan perintah sebagai gantinya jika Anda ingin lirik untuk musik apa pun yang diputar.
 """
 
 
