@@ -10,7 +10,7 @@ def start_pannel():
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="🗂 Helper Commands Menu", callback_data="shikhar"
+                    text="Helper Commands Menu", callback_data="shikhar"
                 ),
             ],
             [
@@ -24,7 +24,7 @@ def start_pannel():
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="🗂 Helper Commands Menu", callback_data="shikhar"
+                    text="Helper Commands Menu", callback_data="shikhar"
                 ),
             ],
             [
@@ -34,7 +34,7 @@ def start_pannel():
             ],
             [
                 InlineKeyboardButton(
-                    text="📨Support Group", url=f"{SUPPORT_GROUP}"
+                    text="Support Group", url=f"{SUPPORT_GROUP}"
                 ),
             ],
         ]
@@ -43,7 +43,7 @@ def start_pannel():
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="🗂 Helper Commands Menu", callback_data="shikhar"
+                    text="Helper Commands Menu", callback_data="shikhar"
                 ),
             ],
             [
@@ -53,7 +53,7 @@ def start_pannel():
             ],
             [
                 InlineKeyboardButton(
-                    text="📨Official Channel", url=f"{SUPPORT_CHANNEL}"
+                    text="Official Channel", url=f"{SUPPORT_CHANNEL}"
                 ),
             ],
         ]
@@ -62,7 +62,7 @@ def start_pannel():
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="🗂 Helper Commands Menu", callback_data="shikhar"
+                    text="Helper Commands Menu", callback_data="shikhar"
                 ),
             ],
             [
@@ -72,10 +72,10 @@ def start_pannel():
             ],
             [
                 InlineKeyboardButton(
-                    text="📨Official Channel", url=f"{SUPPORT_CHANNEL}"
+                    text="Official Channel", url=f"{SUPPORT_CHANNEL}"
                 ),
                 InlineKeyboardButton(
-                    text="📨Support Group", url=f"{SUPPORT_GROUP}"
+                    text="Support Group", url=f"{SUPPORT_GROUP}"
                 ),
             ],
         ]
@@ -87,7 +87,7 @@ def private_panel():
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="🗂 Helper Commands Menu", callback_data="shikhar"
+                    text="Helper Commands Menu", callback_data="shikhar"
                 ),
             ],
             [
@@ -102,7 +102,7 @@ def private_panel():
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="🗂 Helper Commands Menu", callback_data="shikhar"
+                    text="Helper Commands Menu", callback_data="shikhar"
                 ),
             ],
             [
@@ -113,7 +113,7 @@ def private_panel():
             ],
             [
                 InlineKeyboardButton(
-                    text="📨Support Group", url=f"{SUPPORT_GROUP}"
+                    text="Support Group", url=f"{SUPPORT_GROUP}"
                 ),
             ],
         ]
@@ -122,7 +122,7 @@ def private_panel():
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="🗂 Helper Commands Menu", callback_data="shikhar"
+                    text="Helper Commands Menu", callback_data="shikhar"
                 ),
             ],
             [
@@ -133,7 +133,7 @@ def private_panel():
             ],
             [
                 InlineKeyboardButton(
-                    text="📨Official Channel", url=f"{SUPPORT_CHANNEL}"
+                    text="Official Channel", url=f"{SUPPORT_CHANNEL}"
                 ),
             ],
         ]
@@ -142,7 +142,7 @@ def private_panel():
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="🗂 Helper Commands Menu", callback_data="shikhar"
+                    text="Helper Commands Menu", callback_data="shikhar"
                 ),
             ],
             [
@@ -153,10 +153,10 @@ def private_panel():
             ],
             [
                 InlineKeyboardButton(
-                    text="📨Official Channel", url=f"{SUPPORT_CHANNEL}"
+                    text="Official Channel", url=f"{SUPPORT_CHANNEL}"
                 ),
                 InlineKeyboardButton(
-                    text="📨Support Group", url=f"{SUPPORT_GROUP}"
+                    text="Support Group", url=f"{SUPPORT_GROUP}"
                 ),
             ],
         ]
@@ -171,10 +171,10 @@ def setting_markup():
         ],
         [
             InlineKeyboardButton(
-                text="👥 Authorized Users", callback_data="AU"
+                text="Authorized Users", callback_data="AU"
             ),
             InlineKeyboardButton(
-                text="💻 Dashboard", callback_data="Dashboard"
+                text="Dashboard", callback_data="Dashboard"
             ),
         ],
         [
@@ -202,7 +202,7 @@ def volmarkup():
         ],
         [
             InlineKeyboardButton(
-                text="🔽 Custom Volume 🔽", callback_data="Custommarkup"
+                text="🔽Custom Volume🔽", callback_data="Custommarkup"
             )
         ],
         [InlineKeyboardButton(text="🔙 Go back", callback_data="settingm")],
@@ -224,7 +224,7 @@ def custommarkup():
             InlineKeyboardButton(text="+50", callback_data="PFZ"),
             InlineKeyboardButton(text="-50", callback_data="MFZ"),
         ],
-        [InlineKeyboardButton(text="🔼Custom Volume 🔼", callback_data="AV")],
+        [InlineKeyboardButton(text="🔼Custom Volume🔼", callback_data="AV")],
     ]
     return f"🔧  **{MUSIC_BOT_NAME} Settings**", buttons
 
@@ -232,12 +232,12 @@ def custommarkup():
 def usermarkup():
     buttons = [
         [
-            InlineKeyboardButton(text="👥 Everyone", callback_data="EVE"),
-            InlineKeyboardButton(text="🙍 Admins", callback_data="AMS"),
+            InlineKeyboardButton(text="Everyone", callback_data="EVE"),
+            InlineKeyboardButton(text="Admins", callback_data="AMS"),
         ],
         [
             InlineKeyboardButton(
-                text="📋 Authorized Users Lists", callback_data="USERLIST"
+                text="Authorized Users Lists", callback_data="USERLIST"
             )
         ],
         [InlineKeyboardButton(text="🔙 Go back", callback_data="settingm")],
@@ -248,12 +248,12 @@ def usermarkup():
 def dashmarkup():
     buttons = [
         [
-            InlineKeyboardButton(text="✔️ Uptime", callback_data="UPT"),
-            InlineKeyboardButton(text="💾 Ram", callback_data="RAT"),
+            InlineKeyboardButton(text="Uptime", callback_data="UPT"),
+            InlineKeyboardButton(text="Ram", callback_data="RAT"),
         ],
         [
-            InlineKeyboardButton(text="💻 Cpu", callback_data="CPT"),
-            InlineKeyboardButton(text="💽 Disk", callback_data="DIT"),
+            InlineKeyboardButton(text="Cpu", callback_data="CPT"),
+            InlineKeyboardButton(text="Disk", callback_data="DIT"),
         ],
         [InlineKeyboardButton(text="🔙 Go back", callback_data="settingm")],
     ]
