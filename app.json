@@ -1,5 +1,5 @@
 {
-  "name": "Yukki Music Bot",
+  "name": "Wiki Music Bot",
   "description": "A Telegram Music Bot with proper functions written in Python with Pyrogram and Py-Tgcalls.",
   "repository": "https://github.com/NotReallyShikhar/YukkiMusicBot",
   "logo": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg",
